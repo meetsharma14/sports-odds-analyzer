@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sports-betting-analyzer
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: daee2737878b0c90cbc4c190213bd6a2
+        sync: false
