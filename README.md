@@ -37,3 +37,46 @@ sports-odds-analyzer/
 ├── requirements.txt
 ├── render.yaml
 └── README.md
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/sports-odds-analyzer.git
+
+Move into project directory:
+
+cd sports-odds-analyzer
+
+Install dependencies:
+
+pip install -r requirements.txt
+Run Project
+python app.py
+
+Open in browser:
+
+http://127.0.0.1:5000
+Deployment
+
+Deploy easily on Render.
+
+Required files:
+
+requirements.txt
+render.yaml
+API Used
+
+The Odds API
+
+https://the-odds-api.com/
+
+Future Improvements
+Real arbitrage calculator
+Multiple sports support
+Live auto-refresh
+Database integration
+Dashboard UI
+CSV export
+Author
+
+Meet Sharma
