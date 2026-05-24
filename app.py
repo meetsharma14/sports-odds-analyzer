@@ -4,7 +4,7 @@ from analyzer import find_best_odds
 
 app = Flask(__name__)
 
-API_KEY = "daee2737878b0c90cbc4c190213bd6a2"
+API_KEY = "your api key"
 
 @app.route("/")
 
