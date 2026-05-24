@@ -27,22 +27,11 @@ This project fetches live football betting odds from The Odds API, compares book
 
 ---
 
-## Project Structure
-
-```bash
-sports-odds-analyzer/
-│
-├── app.py
-├── analyzer.py
-├── requirements.txt
-├── render.yaml
-└── README.md
-
-
 ## Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/your-username/sports-odds-analyzer.git
 
 Move into project directory:
@@ -52,6 +41,14 @@ cd sports-odds-analyzer
 Install dependencies:
 
 pip install -r requirements.txt
+Project Structure
+sports-odds-analyzer/
+│
+├── app.py
+├── analyzer.py
+├── requirements.txt
+├── render.yaml
+└── README.md
 Run Project
 python app.py
 
