@@ -37,6 +37,7 @@ sports-odds-analyzer/
 ├── requirements.txt
 ├── render.yaml
 └── README.md
+
 Installation
 
 Clone the repository:
